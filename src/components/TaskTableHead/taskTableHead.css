@@ -1,0 +1,18 @@
+.task-table-thead{
+    width: 100%;
+    tr{
+        width: 100%;
+    
+    }
+}
+
+.thead-th{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    svg{
+        width: 18px;
+    }
+}

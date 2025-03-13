@@ -1,0 +1,11 @@
+.task-manager-header {
+    margin-bottom: 3rem;
+  h1 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 0.25rem;
+  }
+  p {
+    color: var(--gray-600);
+  }
+}
