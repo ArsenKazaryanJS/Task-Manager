@@ -1,0 +1,85 @@
+.task-form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.input-box {
+    flex-grow: 1;
+    position: relative;
+}
+.input-box > svg {
+  position: absolute;
+  color: var(--gray-500);
+  width: 19px;
+  left: 7px;
+  top: 9px;
+}
+
+.input-box > input {
+    width: 100%;
+    padding: .5rem .75rem;
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--gray-700);
+    background-color: #fff;
+    border: solid 0.6px rgba(0, 0, 0, 0.336);
+    border-radius: var(--radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; 
+}
+
+.input-box > input:focus {
+    border: solid 0.6px var(--primary-color);
+    box-shadow: var(--primary-color-light) 0px 0px 0px 3px;
+    outline: none; 
+}
+.input-box > input::placeholder {
+   padding-left: 20px;
+   font-size: 15px;
+}
+
+.task-form > select{
+    border-radius: var(--radius);
+    border: solid 0.6px rgba(0, 0, 0, 0.336);
+    padding: .5rem .75rem;
+    color: var(--gray-700);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.task-form > select:focus {
+    border: solid 0.6px var(--primary-color);
+    box-shadow: var(--primary-color-light) 0px 0px 0px 3px;
+    outline: none;
+}
+
+.task-form > button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem .75rem;
+    color: #fff;
+    border-radius: var(--radius);
+    border: solid 0.6px #9b87f5;
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color .2s;
+    svg{
+        width: 15.8px;
+        color: #fff;
+        margin-right: 10px;
+    }
+    span{
+        font-size: 15px;
+        font-weight: 550;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+}
+
+.task-form > button:hover{
+    background-color: var(--primary-color-dark);
+}
