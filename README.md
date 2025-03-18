@@ -1,10 +1,4 @@
-This project is a web application for task management (Task Manager). It allows users to add, edit, delete, and filter tasks. The main
 
-Creating new tasks with a title, description, and due date
-Editing existing tasks
-Changing the status of tasks (completed/pending)
-Filtering tasks by status and searching by text
-Sorting tasks by various parameters
+You can view the project live at the following link:https://arsenkazaryanjs.github.io/Task-Manager/
 
-The project is built on React using plain CSS for
-![image](https://github.com/user-attachments/assets/ed219ca2-fd09-40fe-add0-9f6dc85acb92)
+![image](https://github.com/user-attachments/assets/8b4eaa78-56ca-461c-ba3d-127f1c5f9e67)
